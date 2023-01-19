@@ -17,10 +17,12 @@ $ docker-compose up -d
 {
     "orders": [
         {
-            "id": 1
+            "id": 1,
+            "topping": ["topping1","topping2"]
         },
          {
-            "id": 2
+            "id": 2,
+            "topping": ["topping1","topping2"]
         },
          {
             "id": 3
@@ -32,13 +34,15 @@ $ docker-compose up -d
             "id": 5
         },
          {
-            "id": 6
+            "id": 6,
+            "topping": ["topping1","topping2"]
         },
          {
             "id": 7
         },
          {
-            "id": 8
+            "id": 8,
+            "topping": ["topping1","topping2"]
         }
     ]
 }
