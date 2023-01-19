@@ -1,7 +1,7 @@
 
 
 ```bash
-# To Run The App
+# To Build and Run The App
 $ docker build .
 $ docker-compose build
 $ docker-compose up -d
