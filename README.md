@@ -7,13 +7,13 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-
+```bash
 # Api Documentation:
 
 #Place Orders
-Method:Post
-Path: localhost:3000/restaurant
-Example_Body:
+#Method:Post
+#Path: localhost:3000/restaurant
+#Example_Body:
 {
     "orders": [
         {
@@ -42,4 +42,5 @@ Example_Body:
         }
     ]
 }
+```
 
